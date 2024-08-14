@@ -21,7 +21,7 @@ document.getElementById('donationForm').addEventListener('submit', async (event)
         networkPassphrase: StellarSdk.Networks.TESTNET
     })
         .addOperation(StellarSdk.Operation.payment({
-            destination: 'GBEH57T7S252BTEX7RPYT44CL4CVHL4FHSJVCE2K62D22X6GBCZJIMMQ',
+            destination: 'GBCY5GG3SGM7VBZP5QTFR4GZTKPUH3MAH5EQ6224NEYBUAKUXIX27TRVQ',
             asset: StellarSdk.Asset.native(),
             amount: convertedAmount.toString()
         }))
